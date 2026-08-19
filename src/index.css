@@ -6454,12 +6454,14 @@ input:checked+.slider:before {
     flex-direction: column !important;
     align-items: center !important;
     justify-content: center !important;
+    transform: translateY(-40px) !important;
   }
 
-  h1.landing-main-title {
-    font-size: 38px !important;
+  h1.landing-main-title,
+  .landing-main-title {
+    font-size: 58px !important;
     line-height: 1.15 !important;
-    font-weight: 700 !important;
+    font-weight: 800 !important;
     margin-bottom: 8px !important;
   }
 
@@ -6723,8 +6725,10 @@ input:checked+.slider:before {
     transform: translateY(-40px) !important;
   }
 
-  h1.landing-main-title {
-    font-size: 59.3px !important;
+  h1.landing-main-title,
+  .landing-main-title,
+  .landing-hero h1 {
+    font-size: 58px !important;
     font-weight: 800 !important;
     letter-spacing: -0.8px !important;
     text-align: center !important;
