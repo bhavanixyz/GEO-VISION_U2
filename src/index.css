@@ -6720,10 +6720,11 @@ input:checked+.slider:before {
     margin: 0 auto !important;
     text-align: center !important;
     box-sizing: border-box !important;
+    transform: translateY(-40px) !important;
   }
 
   h1.landing-main-title {
-    font-size: 38px !important;
+    font-size: 45.6px !important;
     font-weight: 800 !important;
     letter-spacing: -0.8px !important;
     text-align: center !important;
