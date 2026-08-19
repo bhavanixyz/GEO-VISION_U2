@@ -1009,15 +1009,6 @@ input:checked+.slider:before {
     background: #011E3D url('/assets/mobile_background.png') no-repeat center center !important;
     background-size: cover !important;
   }
-
-  .hero-overlay {
-    position: absolute !important;
-    inset: 0 !important;
-    background: radial-gradient(circle at 50% 40%, rgba(14, 165, 233, 0.04) 0%, rgba(1, 15, 35, 0.08) 100%) !important;
-    opacity: 0.05 !important;
-    z-index: 1 !important;
-    pointer-events: none !important;
-  }
 }
 
 /* Dark blue gradient overlay to dim the bright background image */
@@ -6554,16 +6545,16 @@ input:checked+.slider:before {
     border-radius: 10px !important;
   }
 
-  /* Tablet Homepage Background Overlay Opacity (5%) */
+  /* Tablet Homepage Background Overlay Opacity (10%) */
   .hero-landing {
-    background: #011E3D url('/assets/mobile_background.png') no-repeat center center / cover !important;
+    background: linear-gradient(180deg, rgba(1, 30, 61, 0.08) 0%, rgba(2, 10, 25, 0.10) 100%), url('/assets/mobile_home_bg.png') no-repeat center center / cover !important;
   }
 
   .hero-overlay {
     position: absolute !important;
     inset: 0 !important;
     background: radial-gradient(circle at 50% 40%, rgba(14, 165, 233, 0.04) 0%, rgba(1, 15, 35, 0.08) 100%) !important;
-    opacity: 0.05 !important;
+    opacity: 0.10 !important;
     z-index: 1 !important;
     pointer-events: none !important;
   }
@@ -6715,7 +6706,7 @@ input:checked+.slider:before {
     position: absolute !important;
     inset: 0 !important;
     background: radial-gradient(circle at 50% 40%, rgba(14, 165, 233, 0.04) 0%, rgba(1, 15, 35, 0.08) 100%) !important;
-    opacity: 0.05 !important;
+    opacity: 0.10 !important;
     z-index: 1 !important;
     pointer-events: none !important;
   }
